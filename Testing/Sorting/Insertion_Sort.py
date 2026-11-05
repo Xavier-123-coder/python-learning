@@ -21,7 +21,6 @@ def insertion_sort(numbers):
 
     return numbers
 
-
 sorted_numbers = insertion_sort(numbers)
 
 print("\nFinal sorted list:", sorted_numbers)
