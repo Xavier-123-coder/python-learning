@@ -13,11 +13,11 @@ def insertion_sort(numbers):
 
         while i >= 0 and numbers[i] > key:
             numbers[i + 1] = numbers[i]
-            print("After shifting:", numbers)
+            print(f"After shifting: {numbers}")
             i -= 1
 
         numbers[i + 1] = key
-        print("After inserting key:", numbers)
+        print(f"After inserting key: {numbers}")
 
     return numbers
 

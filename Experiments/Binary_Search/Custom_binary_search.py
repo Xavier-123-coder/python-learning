@@ -6,7 +6,7 @@ while keep_going:
     numbers.append(element)
 
     while True:
-        choice = input("Type 'Move' to finish entering numbers or 'Stay' to enter another:\t").capitalize()
+        choice = input("Type 'Stop' to finish entering numbers or 'Continue' to enter another:\t").capitalize()
 
         if choice == "Continue":
             break
