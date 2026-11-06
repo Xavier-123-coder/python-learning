@@ -1,3 +1,5 @@
+numbers = []
+
 while keep_going:
     element = int(input("Enter a number: "))
     numbers.append(element)
