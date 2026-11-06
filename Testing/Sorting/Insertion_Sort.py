@@ -8,17 +8,11 @@ def insertion_sort(numbers):
         key = numbers[j]
         i = j - 1
 
-        print(f"\nInserting key: {key}")
-        print(f"Starting index i: {i}")
-
         while i >= 0 and numbers[i] > key:
             numbers[i + 1] = numbers[i]
-            print(f"After shifting: {numbers}")
             i -= 1
 
         numbers[i + 1] = key
-        print(f"After inserting key: {numbers}")
-
     return numbers
 
 
